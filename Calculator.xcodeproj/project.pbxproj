@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E4581712810B48700CBB172 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4581712810B48700CBB172 /* iosCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4581742810B48700CBB172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E4581762810B48700CBB172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E4581782810B48700CBB172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		7E4581722810B48700CBB172 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E4581712810B48700CBB172 /* Calculator.app */,
+				7E4581712810B48700CBB172 /* iosCalculator.app */,
 				7E4581872810B48C00CBB172 /* CalculatorTests.xctest */,
 				7E4581912810B48C00CBB172 /* CalculatorUITests.xctest */,
 			);
@@ -144,7 +144,7 @@
 			);
 			name = Calculator;
 			productName = Calculator;
-			productReference = 7E4581712810B48700CBB172 /* Calculator.app */;
+			productReference = 7E4581712810B48700CBB172 /* iosCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7E4581862810B48C00CBB172 /* CalculatorTests */ = {
@@ -454,7 +454,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Dillystudios.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iosCalculator;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,7 +483,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Dillystudios.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iosCalculator;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
