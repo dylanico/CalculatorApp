@@ -37,15 +37,6 @@ class ViewController: UIViewController {
     func updateCalculatorView(){
         
         
-        if calculatorField.text == "0"{
-            calculatorField.text = numberButtonTitle
-        }else{
-            calculatorField.text! += numberButtonTitle
-        }
-        
-        if operationButtonTitle == "AC"{
-            calculatorField.text = "0"
-        }
         
     }
 }
