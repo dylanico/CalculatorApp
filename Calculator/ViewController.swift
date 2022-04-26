@@ -22,23 +22,15 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func numberButton(_ sender: UIButton) {
+    @IBAction func Buttons(_ sender: UIButton) {
         
-        numberButtonTitle = sender.titleLabel?.text ?? ""
-        print(numberButtonTitle)
+        //all the buttons are linked to the IBAction
         
-        updateCalculatorView()
         
     }
     
-    @IBAction func operationButton(_ sender: UIButton) {
-        
-        operationButtonTitle = sender.titleLabel?.text ?? ""
-        print(operationButtonTitle)
-        
-        updateCalculatorView()
-        
-    }
+    
+    
     
     
     
